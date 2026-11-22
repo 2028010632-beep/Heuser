@@ -19,13 +19,13 @@
 
     
     <a href="journey.html" class="desk-item photo-frame" aria-label="Go to About, Achievements, and Aspirations">
-      <IMG_20261122_145447.jpg>" alt="Portrait of me on the desk" class="self-photo" />
+      <img src="IMG_20261122_145447.jpg" alt="Portrait of me on the desk" class="self-photo" />
       <span class="item-label">Framed Portrait: Journey &amp; Goals</span>
     </a>
 
      <a href="https://2028010632-beep.github.io/Heuser/CS_CRP/Homework_6/" target="_blank" rel="noopener noreferrer" class="desk-item blueprint-roll">
 
-    <a href="YOUR_HOMEWORK_7_URL_HERE" target="_blank" rel="noopener noreferrer" class="desk-item blueprint-roll">
+    
       <span class="badge">HW 7 Archive</span>
       <span class="item-label">Rolled Blueprint: Homework 7</span>
     </a>
