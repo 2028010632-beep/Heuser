@@ -17,7 +17,7 @@
       </p>
     </section>
 
-    <!-- Replace profile.jpg with your actual photo filename in Homework_8/ -->
+    <IMG_20261122_145447.jpg>
     <a href="journey.html" class="desk-item photo-frame" aria-label="Go to About, Achievements, and Aspirations">
       <img src="profile.jpg" alt="Portrait of me on the desk" class="self-photo" />
       <span class="item-label">Framed Portrait: Journey &amp; Goals</span>
