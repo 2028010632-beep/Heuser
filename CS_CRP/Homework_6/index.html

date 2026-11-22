@@ -1,1 +1,51 @@
-CS_CRP/Homework_6/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Catch Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>NEON CATCHER</h1>
+            <div class="hud">
+                <span>Score: <strong id="scoreVal">0</strong></span>
+                <span>Lives: <strong id="livesVal">3</strong></span>
+                <span>High Score: <strong id="highScoreVal">0</strong></span>
+            </div>
+        </header>
+
+        <div class="canvas-wrapper">
+            <canvas id="gameCanvas" width="800" height="500"></canvas>
+            
+            <!-- Overlays -->
+            <div id="menuOverlay" class="overlay">
+                <h2>Ready to Play?</h2>
+                <p>Catch yellow stars, dodge red bombs! Use Left/Right arrows.</p>
+                <button id="startBtn" class="btn">Start Game</button>
+            </div>
+
+            <div id="pauseOverlay" class="overlay hidden">
+                <h2>Game Paused</h2>
+                <button id="resumeBtn" class="btn">Resume</button>
+            </div>
+
+            <div id="gameOverOverlay" class="overlay hidden">
+                <h2>Game Over</h2>
+                <p>Final Score: <span id="finalScore">0</span></p>
+                <button id="restartBtn" class="btn">Play Again</button>
+            </div>
+        </div>
+
+        <div class="controls-bar">
+            <button id="pauseBtn" class="control-btn">Pause</button>
+            <button id="muteBtn" class="control-btn">Mute: OFF</button>
+            <button id="resetDataBtn" class="control-btn">Reset High Score</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
